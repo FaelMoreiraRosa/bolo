@@ -1,0 +1,54 @@
+body {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: rgb(255,247,71);
+background: radial-gradient(circle, rgba(255,247,71,1) 33%, rgba(255,159,0,1) 72%);
+}
+
+header>h3 {
+    background-color: #f3f3f3;
+    border: 1px solid #000000;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-bottom: 20px;
+    padding: 8px 20px;
+}
+
+header>h1 {
+    background-color: #ecba5c;
+    border: 1px solid #493d1b;
+    font-weight: 100;
+    margin-bottom: 20px;
+    padding: 8px 20px;
+}
+
+.container {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    background: rgb(255, 247, 71);
+    background: radial-gradient(circle, rgba(255, 247, 71, 1) 33%, rgba(255, 159, 0, 1) 72%);
+}
+
+.listas {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabela {
+    align-items: center;
+    text-align: center;
+}
+
+.botao {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    color: beige;
+    border-color: yellowgreen;
+    border-width: 15px;
+    border-style: dotted;
+}
